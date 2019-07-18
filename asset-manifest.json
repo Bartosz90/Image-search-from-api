@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Image-search-from-api/static/css/main.6af10938.chunk.css",
+    "main.css": "/Image-search-from-api/static/css/main.dc8e38f4.chunk.css",
     "main.js": "/Image-search-from-api/static/js/main.f7ef9c36.chunk.js",
     "main.js.map": "/Image-search-from-api/static/js/main.f7ef9c36.chunk.js.map",
     "runtime~main.js": "/Image-search-from-api/static/js/runtime~main.ec8e8218.js",
@@ -8,8 +8,8 @@
     "static/js/2.6efc73d3.chunk.js": "/Image-search-from-api/static/js/2.6efc73d3.chunk.js",
     "static/js/2.6efc73d3.chunk.js.map": "/Image-search-from-api/static/js/2.6efc73d3.chunk.js.map",
     "index.html": "/Image-search-from-api/index.html",
-    "precache-manifest.b42e5a0b4207b4bd32b9f175c3ccc19e.js": "/Image-search-from-api/precache-manifest.b42e5a0b4207b4bd32b9f175c3ccc19e.js",
+    "precache-manifest.61e0747fb3af16a7d69bcb7c18d0561b.js": "/Image-search-from-api/precache-manifest.61e0747fb3af16a7d69bcb7c18d0561b.js",
     "service-worker.js": "/Image-search-from-api/service-worker.js",
-    "static/css/main.6af10938.chunk.css.map": "/Image-search-from-api/static/css/main.6af10938.chunk.css.map"
+    "static/css/main.dc8e38f4.chunk.css.map": "/Image-search-from-api/static/css/main.dc8e38f4.chunk.css.map"
   }
 }
