@@ -13,7 +13,7 @@ class App extends React.Component {
     fetch(
       `https://pixabay.com/api/?key=13072912-6005946fe1307b336cb17cc82&q=${
         this.state.inputValue
-      }&image_type=photo&orientation=horizontal`
+      }&image_type=photo&orientation=horizontal&per_page=30`
     )
       .then(response => {
         return response.json();
