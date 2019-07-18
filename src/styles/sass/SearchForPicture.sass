@@ -1,0 +1,76 @@
+.pixabay 
+    position: absolute 
+    bottom: 0
+    right: 20px
+    width: 10vh
+    height: 10vh
+    display: flex
+    justify-content: center
+    align-items: center 
+    flex-wrap: wrap
+    background-color: #0c0c0c
+    border: 2px solid #950740
+    border-bottom: none
+    border-right: none
+    @media (orientation: landscape) and (max-width: 900px) 
+        right: 0
+        width: 18vh
+        height: 18vh
+    @media (orientation: portrait) 
+        right: 0
+    h2 
+        color: #fff 
+        height: 20% 
+        width: 100% 
+        font-size: 12px
+        
+    a 
+        display: block 
+        height: 80%
+        width: 100%
+        img 
+            height: 100%
+.form 
+    position: fixed
+    top: 0
+    left: 0
+    width: 100vw
+    height: 10vh
+    display: flex
+    justify-content: center
+    align-items: center 
+    background-color: #1a1a1d
+    border-bottom: 2px solid #950740
+    @media (orientation: landscape) and (max-width: 900px) 
+        height: 18vh
+    @media (orientation: portrait) 
+        justify-content: flex-start
+    input , button
+        height: 35px
+        padding: 10px
+        outline: none
+        transition: .1s linear
+        color: #fff
+        border: 2px solid #950740
+        background-color: #6f2232
+        &:focus 
+            box-shadow: 0 0 1px 1px #950740
+    input 
+        width: 25%
+        margin: 0 10px
+        @media (orientation: landscape) and (max-width: 900px)
+            width: 35%
+        @media (orientation: portrait) 
+            width: 40%
+    button
+        width: 8%
+        cursor: pointer
+        text-transform: uppercase
+        font-weight: bold
+        letter-spacing: 1px
+        @media (orientation: landscape) and (max-width: 900px)
+            width: 15%
+        @media (orientation: portrait) 
+            width: 30%
+        &:hover 
+            letter-spacing: 2px

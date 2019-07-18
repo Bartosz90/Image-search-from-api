@@ -1,0 +1,50 @@
+=flexCenter()
+    display: flex
+    justify-content: center 
+    align-items: center
+.picturesContainer 
+    min-height: 90vh
+    width: 100vw
+    padding: 20px
+    margin-top: 10vh
+    display: flex 
+    justify-content: space-around 
+    align-items: flex-start
+    flex-wrap: wrap
+    @media (orientation: portrait) 
+        justify-content: center
+    .picture 
+        width: 20% 
+        height: 300px
+        margin: 10px 
+        padding: 10px 
+        +flexCenter()
+        flex-wrap: wrap
+        background-color: gray 
+        border-radius: 2%
+        border: 2px solid #950740
+        background-color: #6f2232
+        overflow: hidden
+        @media (orientation: landscape) and (max-width: 900px)
+            width: 30%
+            height: 70vh
+        @media (orientation: portrait) 
+            width: 80%
+            height: 50vh
+        img, h2, h3 
+            width: 100% 
+            align-self: flex-start
+            +flexCenter()
+        img
+            height: auto
+            max-height: 80%
+            border: 2px solid #950740
+        h2, h3 
+            height: 10%
+            align-self: flex-end
+            @media (orientation: landscape) and (max-width: 900px) 
+                font-size: 15px  
+        a 
+            // text-decoration: none
+            color: white 
+
