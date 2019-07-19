@@ -7,7 +7,7 @@ class App extends React.Component {
     pictures: [],
     inputValue: ""
   };
-  handleRandomUserButton = e => {
+  handlePictureSearch = e => {
     e.preventDefault();
     this.setState({ pictures: [], inputValue: "" });
     fetch(
@@ -31,7 +31,7 @@ class App extends React.Component {
     return (
       <div>
         <SearchForPicture
-          click={this.handleRandomUserButton}
+          click={this.handlePictureSearch}
           inputValue={this.state.inputValue}
           change={this.handleInputValue}
         />

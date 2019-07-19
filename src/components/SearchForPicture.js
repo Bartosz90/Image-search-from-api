@@ -15,16 +15,15 @@ const SearchForPicture = props => {
         <button onClick={props.click} type="submit">
           search
         </button>
-        <div className="pixabay">
-          <h2>API:</h2>
-          <a
-            href="https://pixabay.com/api/docs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={pixabaylogo} alt="pixabay.com api" />
-          </a>
-        </div>
+
+        <a
+          className="pixabay"
+          href="https://pixabay.com/api/docs"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={pixabaylogo} alt="pixabay.com api" />
+        </a>
       </form>
     </>
   );
