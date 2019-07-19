@@ -5,16 +5,14 @@ import "../styles/sass/SearchForPicture.sass";
 const SearchForPicture = props => {
   return (
     <>
-      <form className="form">
+      <form className="form" onSubmit={props.submit}>
         <input
           type="text"
           placeholder="search for an image..."
           value={props.inputValue}
           onChange={props.change}
         />
-        <button onClick={props.click} type="submit">
-          search
-        </button>
+        <button type="submit">search</button>
 
         <a
           className="pixabay"

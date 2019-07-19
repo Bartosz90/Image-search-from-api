@@ -31,7 +31,7 @@ class App extends React.Component {
     return (
       <div>
         <SearchForPicture
-          click={this.handlePictureSearch}
+          submit={this.handlePictureSearch}
           inputValue={this.state.inputValue}
           change={this.handleInputValue}
         />

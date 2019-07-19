@@ -12,7 +12,7 @@
     flex-wrap: wrap
     @media (max-width: 900px) 
         margin-top: 75px
-    @media (orientation: portrait) and (max-width: 430px) 
+    @media (max-width: 430px) 
         justify-content: center
     .picture 
         width: 20% 
@@ -27,14 +27,13 @@
         background-color: #6f2232
         overflow: hidden
         opacity: 0
-        transition: .5s linear
         @media (orientation: landscape) and (max-width: 900px)
             width: 30%
             height: 220px
         @media (orientation: landscape) and (max-width: 580px)
             width: 28%
             height: 170px
-        @media (orientation: portrait) and (max-width: 430px) 
+        @media (max-width: 430px) 
             width: 80%
             height: 300px
         img, h2, h3 
@@ -57,7 +56,7 @@
             &:focus
                 box-shadow: 0 0 2px 2px #fff
     .picture.active 
-        animation: fadeIn .3s linear forwards
+        animation: fadeIn 1s linear forwards
 @keyframes fadeIn 
     100% 
         opacity: 1
